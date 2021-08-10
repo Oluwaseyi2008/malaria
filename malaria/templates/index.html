@@ -1,0 +1,1051 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+<head>
+    <!-- Meta tags -->
+    <!--IMPORTANT METATAG-->
+    
+    {% load static %}
+   
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Title-->
+    <title>Malaria - Creative Website</title>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/static/images/favicon/favicon.ico">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+      <!--Google font-->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+
+    <!--Bootstrap CSS-->
+    <link rel="shortcut icon" href="{% static 'css/bootstrap/bootstrap.min.css' %}">
+    <link rel="shortcut icon" href="{% static 'css/bootstrap/bootstrap.css' %}">
+
+
+
+    <!--Google font-->
+
+       <!-- Latest compiled and minified CSS -->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+       integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+   <!--Owl Carousel CSS-->
+   <link rel="stylesheet" href="/static/css/owl-carousel/owl.carousel.min.css">
+   <link rel="stylesheet" href="/static/css/owl-carousel/owl.theme.default.min.css">
+
+
+    <!--Responsive tab-->
+    <link type="text/css" rel="stylesheet" href="/static/css/responsive-tabs/responsive-tabs.css">
+
+
+    <!--Magnific Pop-up-->
+    <link rel="stylesheet" href="/static/css/animate/animate.css">
+
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="/static/css/style.css">
+
+
+    <!--Responsive CSS-->
+    <link rel="stylesheet" href="/static/css/responsive.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="65" style="font-family:fira code">
+
+    <!--Preloader-->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+
+    <!--Header-->
+    <header>
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="site-nav-wrapper">
+
+                    <div class="navbar-header">
+
+                        <!--Mobile Menu-->
+                        <span id="mobile-nav-open-btn">&#9776;</span>
+
+                        <!--Logo-->
+                        <a class="navbar-brand" href="#home">
+                            <h4 class="smoot-scroll"> Malaria Test</h4>   
+                        </a>
+                    </div>        
+
+                    <!--Main Menu-->
+                    <div class="container">
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav pull-right">
+                                <li><a class="smooth-scroll" href="#home">Home</a></li>
+                                <li><a class="smooth-scroll" href="#about">About</a></li>
+                                <li><a class="smooth-scroll" href="#team">Team</a></li>
+                                <li><a class="smooth-scroll" href="#statement">Statement</a></li>
+                                <li><a class="smooth-scroll" href="#services">Services</a></li>
+                                <li><a class="smooth-scroll" href="#stats">Stats</a></li>
+                                <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Mobile Menu -->
+                    <div id="mobile-nav">
+                        <!--Mobile Menu Close Button-->
+                        <span id="mobile-nav-close-btn">&times;</span>
+                        <div id="mobile-nav-content">
+                            <ul class="nav">
+                                <li><a class="smooth-scroll" href="#home">Home</a></li>
+                                <li><a class="smooth-scroll" href="#about">About</a></li>
+                                <li><a class="smooth-scroll" href="#team">Team</a></li>
+                                <li><a class="smooth-scroll" href="#statement">Statement</a></li>
+                                <li><a class="smooth-scroll" href="#services">Services</a></li>
+                                <li><a class="smooth-scroll" href="#stats">Stats</a></li>
+                                <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Header End-->
+
+    <!--HOME-->
+    <section id="home">
+
+        <!--Overlay-->
+        <div id="home-overlay"></div>
+
+        <div id="home-overlay-1"></div>
+        <!--Home Content-->
+        <div id="home-content">
+            <div id="home-content-inner" class="text-center">
+
+                <div id="home-heading">
+                    <h1 id="home-heading-1" class="animated fadeInDown">Human</h1> <br>
+                    <h1 id="home-heading-2">Medical <span>Solutions</span></h1>
+                </div>
+
+                <div id="home-text">
+                    <p>Your healthiness and well-being is our major concern.</p>
+                </div>
+
+                <div id="home-btn">
+                    <a class="btn btn-general btn-home" href="{% url 'test' %}"  title="TAKE TEST" role="button"> TAKE TEST</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <a href="#about" class="smooth-scroll" id="arrow-down">
+            <i class="fa fa-angle-down"></i>
+        </a>
+
+    </section>
+    <!--HOME END-->
+
+     <!--About-->
+     <section id="about">
+
+        <!--About 01-->
+        <div id="about-01">
+
+            <div class="content-box-lg">
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <!--About left side-->
+                        <div class="col-md-6 col-sm-6 wow slideInLeft" data-wow-duration = "1.5s">
+
+                            <div id="about-left">
+
+                                <div class="vertical-heading">
+
+                                    <h5>Little Things</h5>
+                                    <h2>To Know<br><strong> About Malaria</strong></h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--About right side-->
+                        <div class="col-md-6 col-sm-6 wow slideInRight" data-wow-duration = "1.5s">
+
+                            <div id="about-right">
+
+                                <p>Malaria is a serious and sometimes fatal disease caused by a parasite that commonly infects a certain type of mosquito which feeds on humans. 
+                                    People who get malaria are typically very sick with high fevers, shaking chills, and flu-like illness. 
+                                    Four kinds of malaria parasites infect humans: Plasmodium falciparum, P. vivax, P. ovale, and P. malariae. 
+                                    In addition, P. knowlesi, a type of malaria that naturally infects macaques in Southeast Asia, also infects humans, 
+                                    causing malaria that is transmitted from animal to human (“zoonotic” malaria). 
+                                </p>
+                                <p>P. falciparum is the type of malaria 
+                                    that is most likely to result in severe infections and if not promptly treated, may lead to death. 
+                                    Although malaria can be a deadly disease, illness and death from malaria can usually be prevented.
+                                <br>"https://www.cdc.gov/malaria/about/faqs.html"</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!--About Bottom-->
+                    <div class="row">
+
+                        <div class="col-md-12 wow fadeInUp" data-wow-duration = "1.5s">
+                            <div id="about-bottom">
+                                <img src="/static/images/causes/mosquito2.png" alt="About Us" class="img-responsive">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--About 01 END-->
+
+            <!--About 02-->
+            <div id="about-02">
+
+                <div class="content-box-md">
+
+                    <div class="container">
+
+                        <div class="row">
+
+                            <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-duration = "2.5s">
+
+                                <div class="about-item text-center">
+
+                                    <i class="fa fa-rocket"></i>
+                                    <h3>Mission</h3>
+                                    <hr>
+                                    <p>To develop a diagnosis system using a well Supervised learning techniques that would display the appropriate disease based on the symptoms that the user input.</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4 col-sm-4 wow bounceOut" data-wow-duration = "1.5s">
+
+                                <div class="about-item text-center">
+                                    <i class="fa fa-eye"></i>
+                                    <h3>Vision</h3>
+                                    <hr>
+                                    <p>The vision of this project work is to develop a medical diagnosis system that requires little or no supervision for end user and supply adequate information using 
+                                        Supervised learning.</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4 col-sm-4 wow fadeInRight" data-wow-duration = "1.5s">
+
+                                <div class="about-item text-center">
+
+                                    <i class="fa fa-pencil"></i>
+                                    <h3>Passion</h3>
+                                    <hr>
+                                    <p>It saves the hospital management the time and energy spent in generating patient’s disease in the existing system since most of the operation would automate 
+                                        under the proposed system</p>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <!--About 02 ends-->
+        </div>
+    </section>
+    <!--About End-->
+
+    <!--Team-->
+    <section id="team">
+        <div class="content-box-lg">
+
+            <div class="container">
+
+                <!--Team Members-->
+                <div class="row">
+
+                    <!--Team Left Side-->
+                    <div class="col-md-6 wow fadeInLeft" data-wow-duration = "1.5s">
+
+                        <div class="team-left">
+
+                            <div class="vertical-heading">
+                                <h5>Who We Are</h5>
+                                <h2>Meet Our<br><strong>Talented</strong> Team</h2>
+                            </div>
+                            <p>The software development was handled by Fayomade Oluwaseyi (Developed the Frontend) and Ehru Deborah (Developed the UI/UX) of this software under
+                                the project work of Medical Diagnosis using Supervised Learning (Case study of Malaria). </p>
+                        </div>
+
+                    </div>
+
+                    <!--Team Right Side-->
+                    <div class="col-md-6">
+                        <div id="team-members" class="owl-carousel owl-theme">
+
+                            <!--Member 01-->
+                            <div class="team-member">
+                                <img src="/static/images/team/team01.jpg" alt="team member" class="img-responsive">
+                                <div class="team-member-overlay">
+                                    <div class="team-member-info text-center">
+                                        <h6>Ehru Deborah</h6>
+                                        <p>UI/UX Designer</p>
+                                        <ul class="social-list">
+                                            <li><a href="www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Member 02-->
+                            <div class="team-member">
+                                <img src="/static/images/team/team02.jpg" alt="team member" class="img-responsive">
+                                <div class="team-member-overlay">
+                                    <div class="team-member-info text-center">
+                                        <h6>Fayomade Oluwaseyi</h6>
+                                        <p>IT Engineer</p>
+                                        <ul class="social-list">
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <div id="progress-elements">
+
+                    <!--Progress Bars-->
+                    <div class="row">
+                        <h1>Sign and Symptoms of <strong> Malaria</strong></h1>
+                        <div class="col-md-4">
+                            <!--Skill 01-->
+                            <div class="skill">
+                                <h4>Fever</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 0%;">
+                                        <span>95%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <!--Skill 02-->
+                            <div class="skill">
+                                <h4>Cough</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 0%;">
+                                        <span>75%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <!--Skill 03-->
+                            <div class="skill">
+                                <h4>Nausal and Vomitting</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 0%;">
+                                        <span>60%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <!--Skill 04-->
+                            <div class="skill">
+                                <h4>Chills</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 0%;">
+                                        <span>80%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <!--Skill 05-->
+                            <div class="skill">
+                                <h4>General Feeling of Discomfort</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 0%;">
+                                        <span>93%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <!--Skill 06-->
+                            <div class="skill">
+                                <h4>Headache</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 0%;">
+                                        <span>78%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <!--Skill 07-->
+                            <div class="skill">
+                                <h4>Diarrhea</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 0%;">
+                                        <span>66%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <!--Skill 08-->
+                            <div class="skill">
+                                <h4>Muscle or Joint Pain</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 0%;">
+                                        <span>80%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <!--Skill 09-->
+                            <div class="skill">
+                                <h4>Fatigue</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 0%;">
+                                        <span>59%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <!--Skill 10-->
+                            <div class="skill">
+                                <h4>Rapid heart rate</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 0%;">
+                                        <span>70%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <!--Skill 11-->
+                            <div class="skill">
+                                <h4>Rapid breating</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 0%;">
+                                        <span>60%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <!--Skill 12-->
+                            <div class="skill">
+                                <h4>Abdominal pain</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 0%;">
+                                        <span>80%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--Team End-->
+
+    <!--Statement-->
+    <section id="statement">
+
+        <div id="statement">
+
+            <div class="content-box-lg">
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-md-12 wow slideInDown" data-wow-duration = "1.5s"">
+
+                            <div id="malaria-statement" class="text-center">
+
+                                <h3><i class="fa fa-quote-left"></i> Malaria kills and its main victims are children and
+                                    women. We can
+                                    <br>stop this scourge so people can live with dignity<br> and go to work and school.
+                                    <i class="fa fa-quote-right"></i>
+                                </h3>
+                                <p>- Youssou N'Dour -</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <!--Statement ENDS-->
+
+     <!--SERVICES-->
+     <section id="services">
+
+        <div class="content-box-lg">
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12 text-center wow bounce" data-wow-duration = "1.5s">
+
+                        <div class="horizontal-heading">
+                            <h5>What We Do</h5>
+                            <h2>All Services</h2>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--First Part of services section-->
+        </div>
+
+        <!--Service 2-->
+        <div id="services-02">
+
+            <div class="content-bx-md content-bx-sm">
+
+                <div id="services-tabs">
+
+                    <ul class="text-center">
+                        <li><a href="#service-tab-1">Cough</a></li>
+                        <li><a href="#service-tab-2">Headache</a></li>
+                        <li><a href="#service-tab-3">Mosquito</a></li>
+                        <li><a href="#service-tab-4">Abdominal</a></li>
+                        <li><a href="#service-tab-5">Stress</a></li>
+                        <li><a href="#service-tab-6">Fatigue</a></li>
+                        <li><a href="#service-tab-7">Chills</a></li>
+                        <li><a href="#service-tab-8">Diarrhea</a></li>
+                    </ul>
+
+                    <!--Service tab 1-->
+
+                    <div id="service-tab-1" class="service-tab">
+
+                        <div class="container">
+
+                            <div class="row">
+
+                                <div class="col-md-6 col-xs-12 wow slideInLeft" data-wow-duration = "1.5s">
+
+                                    <img src="/static/images/causes/cough.png" alt="cough">
+                                </div>
+                                <div class="col-md-6 wow slideInRight" data-wow-duration = "1.5s">
+
+                                    <div class="tab-bg">
+
+                                        <h2>01</h2>
+                                        <h3>Coughing is Clearing your Throat.</h3>
+                                        <p>Coughing can have causes that aren't due to underlying disease. 
+                                            Examples include normal clearing of airways, irritants such as smoke and gas, 
+                                            tobacco use or improperly swallowing food and liquids.
+                                        </p>
+                                        <div id="home-btn">
+                                            <a class="btn btn-general btn-yellow" href="{% url 'test' %}" target="_blank" title="TAKE TEST" role="button"> TAKE TEST</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="service-tab-2" class="service-tab">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="/static/images/causes/headach.png" alt="headache">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="tab-bg">
+                                        <h2>02</h2>
+                                        <h3>The Feel of Migraine.</h3>
+                                        <p>Headaches can have causes that aren't due to underlying disease. 
+                                            Examples include<br> lack of sleep, an incorrect eyeglass prescription, stress, 
+                                            loud noise exposure<br> or tight head wear.
+                                        </p>
+                                        <div id="home-btn">
+                                            <a class="btn btn-general btn-yellow" href="{% url 'test' %}" target="_blank" title="TAKE TEST" role="button"> TAKE TEST</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Service tab 3-->
+                    <div id="service-tab-3" class="service-tab">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="/static/images/causes/mosquito.png" alt="Mosquito">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="tab-bg">
+                                        <h2>03</h2>
+                                        <h3>Bite from an Infectious Insect.</h3>
+                                        <p>A mosquito is any member of a group of about 3,500 species of small insects belonging <br>
+                                             to the order Diptera. Within Diptera, mosquitoes constitute the family Culicidae.  <br>
+                                            The word "mosquito" is Spanish and Portuguese for "little fly".
+                                        </p>
+                                        <div id="home-btn">
+                                            <a class="btn btn-general btn-yellow" href="{% url 'test' %}" target="_blank" title="TAKE TEST" role="button"> TAKE TEST</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Service tab 4-->
+                    <div id="service-tab-4" class="service-tab">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="/static/images/causes/abdominal.png" alt="abdominal">
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="tab-bg">
+                                        <h2>04</h2>
+                                        <h3>Pain Anywhere Between Chest and Groin.</h3>
+                                        <p>Abdominal pain can have causes that aren't due to underlying disease.
+                                            Examples include constipation, wind, overeating, stress 
+                                            or muscle strain. Infections in the throat, intestines, and blood can 
+                                            cause bacteria to enter your digestive tract, resulting in abdominal pain.
+                                        </p>
+                                        <div id="home-btn">
+                                            <a class="btn btn-general btn-yellow" href="{% url 'test' %}" target="_blank" title="TAKE TEST" role="button"> TAKE TEST</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Service tab 5-->
+                    <div id="service-tab-5" class="service-tab">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="/static/images/causes/stress.png" alt="stress">
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="tab-bg">
+                                        <h2>05</h2>
+                                        <h3>Overthinking and Tired.</h3>
+                                        <p>Stress is a normal human reaction that happens to everyone. In fact, the human body is
+                                             designed to experience stress and react to it. When you experience changes or challenges (stressors), 
+                                            your body produces physical and mental responses. That’s stress.
+                                        </p>
+                                        <div id="home-btn">
+                                            <a class="btn btn-general btn-yellow" href="{% url 'test' %}" target="_blank" title="TAKE TEST" role="button"> TAKE TEST</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Service tab 6-->
+                    <div id="service-tab-6" class="service-tab">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="/static/images/causes/fatigue.jpg" alt="fatigue">
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="tab-bg">
+                                        <h2>06</h2>
+                                        <h3>Lack of Rest or Adequate Sleep.</h3>
+                                        <p>Fatigue can have causes that aren't due to underlying disease. Examples include lack of 
+                                            sleep, heavy exertion, jet lag, a large meal or ageing.
+                                        </p>
+                                        <div id="home-btn">
+                                            <a class="btn btn-general btn-yellow" href="{% url 'test' %}" target="_blank" title="TAKE TEST" role="button"> TAKE TEST</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Service tab 7-->
+                    <div id="service-tab-7" class="service-tab">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="/static/images/causes/chills.jpg" alt="chills">
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="tab-bg">
+                                        <h2>07</h2>
+                                        <h3>Feeling Cold Unnecessarily.</h3>
+                                        <p>Chills refers to a feeling of being cold without an apparent cause. Shivering or shaking
+                                             can have causes that aren't due to underlying disease. 
+                                            Examples include cold exposure, being frightened or nervousness.
+                                        </p>
+                                        <div id="home-btn">
+                                            <a class="btn btn-general btn-yellow" href="{% url 'test' %}" target="_blank" title="TAKE TEST" role="button"> TAKE TEST</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Service tab 8-->
+                    <div id="service-tab-8" class="service-tab">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="/static/images/causes/diarrhea.jpg" alt="diarrhea">
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="tab-bg">
+                                        <h2>08</h2>
+                                        <h3>Feling Stomach Disorder.</h3>
+                                        <p>Diarrhea is a condition in which faeces are discharged from the bowels frequently and in a liquid form.
+                                             can have causes that aren't due to underlying disease. Examples include a 
+                                            liquid diet, food intolerance, stress, anxiety or use of laxatives.
+                                        </p>
+                                        <div id="home-btn">
+                                            <a class="btn btn-general btn-yellow" href="../html-test.html" target="_blank" title="TAKE TEST" role="button"> TAKE TEST</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Service 2 end-->
+    </section>
+    <!--Service END-->
+
+    <!--Stats-->
+    <section id="stats">
+
+        <div class="content-box-md">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-12 wow bounce" data-wow-duration = "1.5s">
+                        <div class="vertical-heading">
+                            <h5>Malaria Fact</h5>
+                            <h2>Breakdown<br>  of <strong>Malaria </strong>Cases</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-3">
+
+                        <!--Stats 1-->
+                        <div class="stats-item text-center">
+
+                            <i class="fa fa-users"></i>
+                            <h3 class="counter">1.5</h3>
+                            <h3>billions</h3>
+                            <p>Total Cases</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-3">
+
+                        <!--Stats 2-->
+                        <div class="stats-item text-center">
+
+                            <i class="fa fa-bed"></i>
+                            <h3 class="counter">22.4</h3>
+                            <h3>millions</h3>
+                            <p>Active Cases</p>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-3">
+
+                        <!--Stats 3-->
+                        <div class="stats-item text-center">
+
+                            <i class="fa fa-user"></i>
+                            <h3 class="counter">1.47</h3>
+                            <h3>billions</h3>
+                            <p>Recovered Cases</p>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-3">
+
+                        <!--Stats 4-->
+                        <div class="stats-item text-center">
+
+                            <i class="fa fa-warning"></i>
+                            <h3 class="counter">7.6</h3>
+                            <h3>millions</h3>
+                            <p>Deaths</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Stats end-->
+
+    <!--Contact-->
+    <section id="contact">
+
+        <div class="contact-box-md">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-6 wow slideInLeft" data-wow-duration = "1.5s">
+
+                        <!--Contact Left-->
+                        <div id="contact-left">
+                            
+                           <div class="vertical-heading">
+                                <h5>Who We Are</h5>
+                                <h2>Get <br>In <strong>Touch</strong></h2>        
+                            </div>
+                            <p>For more information or you need to make any additional enquiry,
+                                kindly drop a message or visit our social handler below. We awaits your response or feedback, thank you.
+                            </p>
+
+                            <div id="offices">
+
+                                <div class="row">
+
+                                    <div class="col-md-6 wow">
+
+                                        <div class="office">
+                                            <h4>Lagos State</h4>
+                                            <ul class="office-details">
+                                                <li><i class="fa fa-mobile"></i>(234) 810 851 3737</li>
+                                                <li><i class="fa fa-envelope-o"></i>willietechnolgy@solutions.com</li>
+                                                <li><i class="fa fa-map-marker"></i><span>21, Olakunle Street Mushin<br>Lagos, Nigeria</span></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-md-6">
+
+                                        <div class="office">
+                                            <h4>Ogun State</h4>
+                                            <ul class="office-details">
+                                                <li><i class="fa fa-mobile"></i>(234) 810 851 3737</li>
+                                                <li><i class="fa fa-envelope-o"></i>willietechnolgy@solutions.com</li>
+                                                <li><i class="fa fa-map-marker"></i><span>21, Olakunle Street Totowu<br>Ogun, Nigeria</span></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>                        
+
+                                </div>
+
+                                <ul class="social-list">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            
+
+                        </div>
+                       
+                    </div>
+
+                    <div class="col-md-6 wow slideInRight" data-wow-duration = "1.5s">
+
+                        <!--Right Side-->
+                        <div id="contact-right">
+
+                            <form>
+                                <h4>Send Message</h4>
+                                <p>Do you want to drop a message or suggestion to us directly, if yes fill the form below</p>
+                                <div class="row">
+
+                                    <div class="col-md-6">
+                                        
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="name" placeholder="Your name">
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="email" placeholder="E-mail">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="phone" placeholder="Phone Number">
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                            
+                                        </div>
+                                    </div>
+  
+                                </div>
+
+                                <div class="form-group">
+                                    <textarea class="form-control" id="message" placeholder="Message"></textarea>
+                                </div>
+
+                                
+                                <div id="home-btn">
+                                    <a class="btn btn-general btn-yellow"  title="Submit" role="button"> Submit</a>
+                                </div>
+                                
+                            
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--Contact Ends-->
+
+    <!--Footer-->
+    <footer class="text-center smooth-scroll">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Copyright &copy; 2021 All Rights Reserved By <strong>Willie Technology Solutions.</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <!--Back To Top-->
+        <a href="#home" id="back-to-top" class="btn btn-sm btn-blue btn-back-to-top smooth-scroll hidden-sm hidden-xs" title="home"
+            role="button">
+            <i class="fa fa-angle-up"></i>
+        </a>
+
+    </footer>
+    <!--Footer End-->
+
+    <!--JQuery-->
+    <script src="/static/js/jquery.js"></script>
+
+    <!--Bootstrap js-->
+    <script src="/static/js/bootstrap/bootstrap.js"></script>
+
+    <!--Owl Carousel js-->
+    <script src="/static/js/owl-carousel/owl.carousel.min.js"></script>
+
+    <!--Waypoint-->
+    <script src="/static/js/waypoints/jquery.waypoints.min.js"></script>
+
+    <!--Responsive tabs-->
+    <script src="/static/js/responsive-tabs/jquery.responsiveTabs.min.js"></script>
+
+    <!--Isotope JS-->
+    <script src="/static/js/isotope/isotope.min.js"></script>
+
+    <!--Magnific Popup JS-->
+    <script src="/static/js/magnific-pop-up/jquery.magnific-popup.min.js"></script>
+
+    <!--WOW JS-->
+    <script src="/static/js/wow/wow.min.js"></script>
+
+    <!--Counterloop JS-->
+    <script src="/static/js/counterloop/jquery.counterup.min.js"></script>
+
+    <!--Easing Jquery-->
+    <script src="/static/js/easing/jquery.easing.1.3.js"></script>
+
+    <!--Custom JS-->
+    <script src="/static/js/script.js"></script>
+</body>
+
+</html>

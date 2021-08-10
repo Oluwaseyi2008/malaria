@@ -1,0 +1,87 @@
+<html>
+  <body>
+      <style>
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+}
+
+body {
+    box-sizing: border-box;
+    background: #060b16;
+}
+
+
+.container {
+    transform: translate(120%,30px);  
+    border-radius: 20px;
+    /* margin: auto; */
+    background: #fff;
+    width: 400px;
+    height: 510px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+.img-content img {
+    border-radius: 10px;
+    text-align: center;
+    width: 360px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.lower-content{
+    
+    border-radius: 10px;
+    padding: 10px;
+    margin:auto;
+    width: 330px;
+    height: auto;
+    margin-top: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #6c63FF;
+}
+.btn:hover{
+    background: #000;
+    color: #fff;
+    transition: all .25s ease-in-out;
+}
+.button{
+    text-align: center;
+    margin: 30px 20px ;
+    
+}
+
+      </style>
+
+    <div id="card">
+        <div class="container">
+            <div class="img-content">
+                <img src="/static/images/result.jpg" alt="desktop setup">
+            </div>
+            <div class="lower-content">
+                <p>
+                    <b>{{ malaria }}</b>
+                </p>
+            </div>
+
+            <div class="button btn-success">
+                <a href="{% url 'test' %}" class="btn">Test again</a>
+            </div>
+         
+        </div>
+    </div>
+</body>
+</html>

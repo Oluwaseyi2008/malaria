@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% load static %}
+
+  <head>
+    <!-- Meta tags -->
+    <!--IMPORTANT METATAG-->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Title-->
+    <title>Quick Test</title>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/static/images/favicon/favicon.ico" />
+
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+
+    <!--Bootstrap CSS-->
+    <link rel="shortcut icon" href="/static/css/bootstrap/bootstrap.css" />
+
+    <!--Google font-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+      integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+      crossorigin="anonymous"
+    />
+
+    <!--Owl Carousel CSS-->
+    <link
+      rel="stylesheet"
+      href="/static/css/owl-carousel/owl.carousel.min.css"
+    />
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css" />
+
+    <!--Responsive tab-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/responsive-tabs/responsive-tabs.css"
+    />
+
+    <!--Magnific Pop-up-->
+    <link rel="stylesheet" href="/static/css/animate/animate.css" />
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="/static/css/test.css" />
+
+    <!--Responsive CSS-->
+    <link rel="stylesheet" href="/static/assests/css/responsive.css" />
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="65">
+    <!--Preloader-->
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
+
+    <!--Header-->
+    <header>
+      <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="site-nav-wrapper">
+            <div class="navbar-header">
+
+
+              <!--Logo-->
+              <a class="navbar-brand" href="{% url 'dashboard' %}">
+                <h4 class="smoot-scroll">Malaria Test</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Header End-->
+
+    <!--Test Page-->
+    <section id="testpage" class="text-center">
+      <div class="content-box-lg">
+        <div class="container">
+          <div class="row">
+            <form method="POST">
+              {% csrf_token %}
+              <div class="col-md-12 center">
+                <!--Test 01-->
+                <div class="test">
+                  <div class="test-overlay">
+                    <div class="test-question text-center">
+                      <h1>
+                        Are you experiencing high body temperature ?
+                      </h1>
+                    </div>
+                  </div>
+
+                  <div id="home-btn-yes">
+                    <input type="radio" name="HBP" value="1" />
+                    <label for="yes">YES</label>
+                    <input type="radio" name="HBP" value="0" />
+                    <label for="NO">NO</label>
+                  </div>
+                </div>
+
+                <!--Test 02-->
+                <div class="test">
+                  <div class="test-overlay">
+                    <div class="test-question text-center">
+                      <h1>Are you feverish?</h1>
+                    </div>
+                  </div>
+
+                  <div id="home-btn-yes">
+                    <input type="radio" name="fever" value="1" />
+                    <label for="yes">YES</label>
+                    <input type="radio" name="fever" value="0" />
+                    <label for="NO">NO</label>
+                  </div>
+                </div>
+
+                <!--Test 03-->
+                <div class="test">
+                  <div class="test-overlay">
+                    <div class="test-question text-center">
+                      <h1>Do you feel nauseous or vomit?</h1>
+                    </div>
+                  </div>
+
+                  <div id="home-btn-yes">
+                    <input type="radio" name="nauseous" value="1" />
+                    <label for="yes">YES</label>
+                    <input type="radio" name="nauseous" value="0" />
+                    <label for="NO">NO</label>
+                  </div>
+                </div>
+
+                <!--Test 04-->
+                <div class="test">
+                  <div class="test-overlay">
+                    <div class="test-question text-center">
+                      <h1>Do your body ache?</h1>
+                    </div>
+                  </div>
+
+                  <div id="home-btn-yes">
+                    <input type="radio" name="ache" value="1" />
+                    <label for="yes">YES</label>
+                    <input type="radio" name="ache" value="0" />
+                    <label for="NO">NO</label>
+                  </div>
+                </div>
+
+                <!--Test 05-->
+                <div class="test">
+                  <div class="test-overlay">
+                    <div class="test-question text-center">
+                      <h1>Are you sweating profusely?</h1>
+                    </div>
+                  </div>
+
+                  <div id="home-btn-yes">
+                    <input type="radio" name="sweating" value="1" />
+                    <label for="yes">YES</label>
+                    <input type="radio" name="sweating" value="0" />
+                    <label for="NO">NO</label>
+                  </div>
+                </div>
+
+                <!--Test 06-->
+                <div class="test">
+                  <div class="test-overlay">
+                    <div class="test-question text-center">
+                      <h1>Are you experience Diarrhea?</h1>
+                    </div>
+                  </div>
+
+                  <div id="home-btn-yes">
+                    <input type="radio" name="Diarrhea" value="1" />
+                    <label for="yes">YES</label>
+                    <input type="radio" name="Diarrhea" value="0" />
+                    <label for="NO">NO</label>
+                  </div>
+                </div>
+
+                <!--Test 07-->
+                <div class="test">
+                  <div class="test-overlay">
+                    <div class="test-question text-center">
+                      <h1>Do you feel exhausted or fatigue?</h1>
+                    </div>
+                  </div>
+
+                  <div id="home-btn-yes">
+                    <input type="radio" name="fatigue" value="1" />
+                    <label for="yes">YES</label>
+                    <input type="radio" name="fatigue" value="0" />
+                    <label for="NO">NO</label>
+                  </div>
+                </div>
+
+                <!--Test 08-->
+                <div class="test">
+                  <div class="test-overlay">
+                    <div class="test-question text-center">
+                      <h1>Do you feel any sort of Abdominal Pain?</h1>
+                    </div>
+                  </div>
+
+                  <div id="home-btn-yes">
+                    <input type="radio" name="Abdominal" value="1" />
+                    <label for="yes">YES</label>
+                    <input type="radio" name="Abdominal" value="0" />
+                    <label for="NO">NO</label>
+                  </div>
+                </div>
+
+                <!--Test 09-->
+                <div class="test">
+                  <div class="test-overlay">
+                    <div class="test-question text-center">
+                      <h1>Do you have headaches?</h1>
+                    </div>
+                  </div>
+
+                  <div id="home-btn-yes">
+                    <input type="radio" name="headaches" value="1" />
+                    <label for="yes">YES</label>
+                    <input type="radio" name="headaches" value="0" />
+                    <label for="NO">NO</label>
+                  </div>
+                </div>
+
+                <!--Test 10-->
+                <div class="test">
+                  <div class="test-overlay">
+                    <div class="test-question text-center">
+                      <h1>Are you experiencing fast heart rate?</h1>
+                    </div>
+                  </div>
+
+                  <div id="home-btn-yes">
+                    <input type="radio" name="heart" value="1" />
+                    <label for="yes">YES</label>
+                    <input type="radio" name="heart" value="0" />
+                    <label for="NO">NO</label>
+                  </div>
+                </div>
+
+             
+
+              </div>
+
+              <div id="btn-home">
+                <button style = "color: #fff;
+                border: 1px solid #fff;
+                background-color: #212226;
+                margin-top: 35px;"
+                  class="btn btn-general btn-home"
+                  type="submit"
+                >
+                  DIAGNOSE</button>
+                
+                <a
+                  class="btn btn-general btn-home"
+                  href="index.html"
+                  target="_blank"
+                  title="BACK"
+                  role="button"
+                >
+                  BACK</a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div></div>
+    </section>
+    <!--Test Page End-->
+
+    <!--Footer-->
+    <footer class="text-center smooth-scroll">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>
+              Copyright &copy; 2021 All Rights Reserved By
+              <strong>Willie Technology Solutions.</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Footer End-->
+
+    <!--JQuery-->
+    <script src="/static/js/jquery.js"></script>
+
+    <!--Bootstrap js-->
+    <script src="/static/js/bootstrap/bootstrap.js"></script>
+
+    <!--Owl Carousel js-->
+    <script src="/static/js/owl-carousel/owl.carousel.min.js"></script>
+
+    <!--Waypoint-->
+    <script src="/static/js/waypoints/jquery.waypoints.min.js"></script>
+
+    <!--Responsive tabs-->
+    <script src="/static/js/responsive-tabs/jquery.responsiveTabs.min.js"></script>
+
+    <!--Isotope JS-->
+    <script src="/static/js/isotope/isotope.min.js"></script>
+
+    <!--Magnific Popup JS-->
+    <script src="/static/js/magnific-pop-up/jquery.magnific-popup.min.js"></script>
+
+    <!--WOW JS-->
+    <script src="/static/js/wow/wow.min.js"></script>
+
+    <!--Counterloop JS-->
+    <script src="/static/js/counterloop/jquery.counterup.min.js"></script>
+
+    <!--Easing Jquery-->
+    <script src="/static/js/easing/jquery.easing.1.3.js"></script>
+
+    <!--Custom JS-->
+    <script src="/static/js/script.js"></script>
+  </body>
+</html>
